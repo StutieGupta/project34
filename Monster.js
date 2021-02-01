@@ -7,7 +7,7 @@ class Monster{
         }
         this.body = Bodies.circle(x, y, r, options)
         this.radius = r
-        this.image = loadImage("images/Monster-01.png")
+        this.image = loadImage("Monster-01.png")
         World.add(world, this.body)
     }
     display()
