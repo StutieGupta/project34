@@ -7,7 +7,7 @@ class Hero{
         }
         this.body = Bodies.circle(x, y, r, options)
         this.radius = r
-        this.image = loadImage("images/Superhero-01.png")
+        this.image = loadImage("Superhero-01.png")
         this.scale = 12
         World.add(world, this.body)
     }
